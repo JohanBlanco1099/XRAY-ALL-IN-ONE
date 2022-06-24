@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.mike.education.Backend_Car_Service_App.LoadInitData" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-16T21:45:25" hostname="USER-PC" time="0.632">
+  <properties/>
+  <testcase name="testVehicleFindAll()" classname="edu.mike.education.Backend_Car_Service_App.LoadInitData" time="0.632"/>
+  <system-out><![CDATA[15:45:17.214 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:45:17.238 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:45:17.305 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [edu.mike.education.Backend_Car_Service_App.LoadInitData] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:45:17.331 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.mike.education.Backend_Car_Service_App.LoadInitData], using SpringBootContextLoader
+15:45:17.337 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.mike.education.Backend_Car_Service_App.LoadInitData]: class path resource [edu/mike/education/Backend_Car_Service_App/LoadInitData-context.xml] does not exist
+15:45:17.338 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.mike.education.Backend_Car_Service_App.LoadInitData]: class path resource [edu/mike/education/Backend_Car_Service_App/LoadInitDataContext.groovy] does not exist
+15:45:17.338 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [edu.mike.education.Backend_Car_Service_App.LoadInitData]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:45:17.339 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [edu.mike.education.Backend_Car_Service_App.LoadInitData]: LoadInitData does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:45:17.410 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [edu.mike.education.Backend_Car_Service_App.LoadInitData]
+15:45:17.514 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\User\Documents\App_Mobile_Development\backend-app-xray\build\classes\kotlin\main\edu\mike\education\Backend_Car_Service_App\BackendCarServiceAppApplication.class]
+15:45:17.563 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration edu.mike.education.Backend_Car_Service_App.BackendCarServiceAppApplication for test class edu.mike.education.Backend_Car_Service_App.LoadInitData
+15:45:17.724 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [edu.mike.education.Backend_Car_Service_App.LoadInitData]: using defaults.
+15:45:17.725 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:45:17.759 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5bbbdd4b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@438bad7c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@25230246, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fdf8f12, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4a8b5227, org.springframework.test.context.support.DirtiesContextTestExecutionListener@54f5f647, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6979efad, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5a6d5a8f, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@4a67318f, org.springframework.test.context.event.EventPublishingTestExecutionListener@315ba14a, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@17f9344b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27f0ad19, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@54e81b21, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@38d5b107, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6650813a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@44ea608c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@50cf5a23]
+15:45:17.766 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@b273a59 testClass = LoadInitData, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4e7095ac testClass = LoadInitData, locations = '{}', classes = '{class edu.mike.education.Backend_Car_Service_App.BackendCarServiceAppApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1ef3efa8, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@61884cb1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@79da1ec0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4bef0fe3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@285c08c8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@37911f88], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+2022-05-16 15:45:18.259  INFO 20648 --- [    Test worker] e.m.e.B.LoadInitData                     : Starting LoadInitData using Java 11.0.14.1 on User-PC with PID 20648 (started by User in C:\Users\User\Documents\App_Mobile_Development\backend-app-xray)
+2022-05-16 15:45:18.260  INFO 20648 --- [    Test worker] e.m.e.B.LoadInitData                     : The following 1 profile is active: "initlocal"
+2022-05-16 15:45:19.298  INFO 20648 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-16 15:45:19.430  INFO 20648 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 7 JPA repository interfaces.
+2022-05-16 15:45:20.332  INFO 20648 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-16 15:45:20.431  INFO 20648 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-05-16 15:45:20.732  INFO 20648 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-16 15:45:20.932  INFO 20648 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-16 15:45:21.227  INFO 20648 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-16 15:45:21.264  INFO 20648 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+Hibernate: alter table repair drop constraint FK3k5mmcx7j6eia6ehsy7rc4fxe
+Hibernate: alter table repair drop constraint FK7t0sq53oxfibgb6e95qab2h6
+Hibernate: alter table repair_service drop constraint FKf6ohydp0rgdnu83cdr1hvl8lc
+Hibernate: alter table repair_service drop constraint FKrtg26n50cddag6wwa2q6bln8g
+Hibernate: alter table repair_users drop constraint FKli9xll93elyxvjsr5ek9kbdns
+Hibernate: alter table repair_users drop constraint FKlge4wd3hvs05xie3lt6pr8evw
+Hibernate: alter table role_privilege drop constraint FKdkwbrwb5r8h74m1v7dqmhp99c
+Hibernate: alter table role_privilege drop constraint FKsykrtrdngu5iexmbti7lu9xa
+Hibernate: alter table user_role drop constraint FKa68196081fvovjhkek5m97n3y
+Hibernate: alter table user_role drop constraint FKj345gk1bovqvfame88rcx7yyx
+Hibernate: drop table if exists privilege cascade
+Hibernate: drop table if exists repair cascade
+Hibernate: drop table if exists repair_service cascade
+Hibernate: drop table if exists repair_users cascade
+Hibernate: drop table if exists role cascade
+Hibernate: drop table if exists role_privilege cascade
+Hibernate: drop table if exists service cascade
+Hibernate: drop table if exists status cascade
+Hibernate: drop table if exists user_role cascade
+Hibernate: drop table if exists users cascade
+Hibernate: drop table if exists vehicle cascade
+Hibernate: drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start 1 increment 1
+Hibernate: create table privilege (id int8 not null, name varchar(255), primary key (id))
+Hibernate: create table repair (id int8 not null, status_id int8 not null, vehicle_id int8 not null, primary key (id))
+Hibernate: create table repair_service (repair_id int8 not null, service_id int8 not null, primary key (repair_id, service_id))
+Hibernate: create table repair_users (repair_id int8 not null, user_id int8 not null, primary key (repair_id, user_id))
+Hibernate: create table role (id int8 not null, name varchar(255), primary key (id))
+Hibernate: create table role_privilege (role_id int8 not null, privilege_id int8 not null, primary key (role_id, privilege_id))
+Hibernate: create table service (id int8 not null, description varchar(255), primary key (id))
+Hibernate: create table status (id int8 not null, description varchar(255), primary key (id))
+Hibernate: create table user_role (user_id int8 not null, role_id int8 not null, primary key (user_id, role_id))
+Hibernate: create table users (id int8 not null, create_date timestamp, email varchar(255), enabled boolean not null, first_name varchar(255), last_name varchar(255), password varchar(255), token_expired boolean not null, primary key (id))
+Hibernate: create table vehicle (id int8 not null, brand varchar(255), car_type varchar(255), engine_type varchar(255), serial_num int4, vin_num int4, primary key (id))
+Hibernate: alter table repair add constraint FK3k5mmcx7j6eia6ehsy7rc4fxe foreign key (status_id) references status
+Hibernate: alter table repair add constraint FK7t0sq53oxfibgb6e95qab2h6 foreign key (vehicle_id) references vehicle
+Hibernate: alter table repair_service add constraint FKf6ohydp0rgdnu83cdr1hvl8lc foreign key (service_id) references service
+Hibernate: alter table repair_service add constraint FKrtg26n50cddag6wwa2q6bln8g foreign key (repair_id) references repair
+Hibernate: alter table repair_users add constraint FKli9xll93elyxvjsr5ek9kbdns foreign key (user_id) references users
+Hibernate: alter table repair_users add constraint FKlge4wd3hvs05xie3lt6pr8evw foreign key (repair_id) references repair
+Hibernate: alter table role_privilege add constraint FKdkwbrwb5r8h74m1v7dqmhp99c foreign key (privilege_id) references privilege
+Hibernate: alter table role_privilege add constraint FKsykrtrdngu5iexmbti7lu9xa foreign key (role_id) references role
+Hibernate: alter table user_role add constraint FKa68196081fvovjhkek5m97n3y foreign key (role_id) references role
+Hibernate: alter table user_role add constraint FKj345gk1bovqvfame88rcx7yyx foreign key (user_id) references users
+2022-05-16 15:45:22.270  INFO 20648 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-16 15:45:22.284  INFO 20648 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-16 15:45:23.708  WARN 20648 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-16 15:45:24.170  INFO 20648 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-16 15:45:25.374  INFO 20648 --- [    Test worker] e.m.e.B.LoadInitData                     : Started LoadInitData in 7.552 seconds (JVM running for 9.876)
+Hibernate: select vehicle0_.id as id1_10_, vehicle0_.brand as brand2_10_, vehicle0_.car_type as car_type3_10_, vehicle0_.engine_type as engine_t4_10_, vehicle0_.serial_num as serial_n5_10_, vehicle0_.vin_num as vin_num6_10_ from vehicle vehicle0_
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

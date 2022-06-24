@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="cr.una.example.frontend_car_service_app.view.SelectServiceFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center_horizontal"
+        android:text="@string/main_service_page_title_select"
+        android:textSize="48sp" />
+
+<!--    <Button-->
+<!--        android:id="@+id/done_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/done_button_select_services"-->
+<!--        android:backgroundTint="@color/colorUpdate"/>-->
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorUpdate"
+        android:text="@string/done_button_select_services"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvServiceListSelect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.Fragment_Client_Home">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center_horizontal"
+        android:text="@string/main_client_page_title"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button_main_add_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorUpdate"
+        android:text="@string/main_client_page_button_add" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/SearchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iconifiedByDefault="false"
+        android:completionThreshold="1"
+        app:queryHint="Search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvClientList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Car Service APP</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Register">Register now</string>
+    <!--    LOG IN FRAGMENT-->
+    <string name="form_login_username">Username</string>
+    <string name="form_login_password">Password</string>
+    <string name="form_login_title">Hi there,Welcome!</string>
+    <string name="form_login_button_login">Login</string>
+    <string name="form_login_registe">Dont have an account? Register Here</string>
+    <!--    MY PROFILE FRAGMENT-->
+    <string name="form_profile_title">My Profile!</string>
+    <string name="home_button_my_profile">My Profile</string>
+    <string name="form_profile_first">Fist Name</string>
+    <string name="form_profile_last">Last Name</string>
+    <string name="form_profile_password">Password</string>
+    <string name="form_profile_email">Email</string>
+    <string name="form_profile_first_label">FistName</string>
+    <string name="form_profile_last_label">FullName</string>
+    <string name="form_profile_password_label">Password</string>
+    <string name="form_profile_email_label">Email</string>
+    <string name="form_profile_phone">Phone</string>
+    <string name="form_profile_button_savechanges">Save Changes</string>
+    <!--    HOME FRAGMENT-->
+    <string name="home_button_Car">Cars</string>
+    <string name="home_button_repair">Repairs</string>
+    <string name="home_button_clients">Clients</string>
+    <!--    Vehicle FRAGMENT-->
+    <string name="main_vehicle_page_title">Vehicles</string>
+    <string name="main_vehicle_page_button_add">Add Vehicle</string>
+    <string name="main_vehicle_page_Vin_number">Vin number</string>
+    <string name="main_vehicle_page_serial_number">Serial number</string>
+    <string name="main_vehicle_page_brand">Brand</string>
+    <string name="main_vehicle_page_type">Type</string>
+    <string name="main_vehicle_page_Vin_number_LABEL">VIN NUMBER:</string>
+    <string name="main_vehicle_page_serial_number_LABEL">SERIAL NUMBER:</string>
+    <string name="main_vehicle_page_brand_LABEL">BRAND:</string>
+    <string name="main_vehicle_page_type_LABEL">TYPE:</string>
+    <!--    ADD Vehicle FRAGMENT-->
+    <string name="form_add_vehicle_title">Type Car Data \nfor Register!</string>
+    <string name="form_id_car">ID</string>
+    <string name="form_vin_car">VIN</string>
+    <string name="form_Brand_car">Brand</string>
+    <string name="form_serie_car">Series number</string>
+    <string name="form_type_car">Type</string>
+    <string name="form_motor_car">Engine Type</string>
+    <!--    Client FRAGMENT-->
+    <string name="main_client_page_title">Clients</string>
+    <string name="main_client_page_button_add">Add Client</string>
+    <!--    ADD Clients FRAGMENT-->
+    <string name="form_add_client_title">Type Client Data \nfor Register!</string>
+    <string name="Client_ID">ID</string>
+    <string name="Client_FirstName">First Name</string>
+    <string name="Client_LastName">Last Name</string>
+    <string name="Client_Email">Email</string>
+    <string name="Client_Password">Password</string>
+    <string name="form_type_user">Type</string>
+    <!--    Select service FRAGMENT-->
+    <string name="Title_select_service">Pick a service(s)</string>
+    <string name="Comfirm_select_service">Confirm</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email / Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_logout">Logout</string>
+    <string name="welcome">Welcome !</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >=5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <!-- Strings related to fragment_vehicle_details -->
+    <string name="vehicle_vin">VIN Number:</string>
+    <string name="vehicle_serial_number">Serial Number:</string>
+    <string name="vehicle_brand">Brand:</string>
+    <string name="vehicle_car_type">Car Type:</string>
+    <string name="vehicle_engine_type">Engine Type:</string>
+    <string name="action_delete_vehicle">Delete</string>
+    <string name="action_update_vehicle">Update</string>
+
+    <!-- Strings related to fragment_vehicle_update -->
+    <string name="action_update">Update</string>
+    <string name="form_update_vehicle_title">Type Car Data \nfor Update!</string>
+
+    <!-- Strings related to fragment_about -->
+    <string name="authors">Car app by: \nEmmanuel Agüero \nDaniel Madrigal \nJohan Blanco</string>
+    <string name="extra_info"> .. </string>
+
+    <!-- Strings related to fragment_user_details -->
+    <string name="user_first_name">First Name: </string>
+    <string name="user_last_name">Last Name: </string>
+    <string name="user_email">Email: </string>
+    <string name="action_delete_user">Delete</string>
+    <string name="action_update_user">Update</string>
+
+    <!-- Strings related to fragment_user_update -->
+    <string name="user_action_update">Update</string>
+    <string name="form_update_user_title">Type User Data \nfor Update!</string>
+
+    <!--    Repair FRAGMENT-->
+    <string name="main_repair_page_title">Repair</string>
+    <string name="main_repair_page_button_add">Add Repair</string>
+    <string name="main_repair_page_vehicle_serial_number">Vehicle Serial Number</string>
+    <string name="main_repair_page_repair_status">Repair Status</string>
+    <string name="main_repair_page_client">Client</string>
+    <string name="main_repair_page_vehicle_serial_number_LABEL">VEHICLE SERIAL NUMBER:</string>
+    <string name="main_repair_page_repair_status_LABEL">REPAIR STATUS:</string>
+    <string name="main_repair_page_client_LABEL">CLIENT:</string>
+
+    <!--    ADD Repair FRAGMENT-->
+    <string name="form_add_repair_title">Select Repair Data \nfor Register!</string>
+    <string name="form_vehicle_selected">Vehicle selected</string>
+    <string name="form_client_selected">Client selected</string>
+    <string name="form_client_selected_button">Pick a client</string>
+    <string name="form_vehicle_selected_button">Pick a vehicle</string>
+    <string name="form_service_selected_button">Pick some services</string>
+    <string name="form_service_selected_result">Services selected are...</string>
+
+
+
+    <!--    Update Status Repair FRAGMENT-->
+    <string name="StatusDescription">Status</string>
+    <string name= "status_button_select_status">Status</string>
+
+    <!--    Client select FRAGMENT-->
+    <string name="main_client_page_title_select">Select a client</string>
+
+    <!--    Vehicle select FRAGMENT-->
+    <string name="main_vehicle_page_title_select">Select a vehicle</string>
+
+    <!--    Service select FRAGMENT-->
+    <string name="ServiceDescriptionLabel">DESCRIPTION: </string>
+    <string name="ServiceDescription">Description</string>
+    <string name="main_service_page_title_select">Pick Some\n Services</string>
+    <string name="done_button_select_services">Done</string>
+
+
+    <!--    repair details FRAGMENT-->
+    <string name="action_update_repair_status">Update Status</string>
+
+    <!--    Repair details FRAGMENT-->
+    <string name="Title_repair_detail">Repair Detail</string>
+    <string name="detail_client">Client:</string>
+    <string name="detail_Mechanic">Mechanic:</string>
+    <string name="detail_status">Repair Status:</string>
+    <string name="detail_service">Service:</string>
+    <string name="edit_status">Edit</string>
+    <string name="car_name">Vehicle serial number:</string>
+    <string name="action_delete_reppair">DELETE</string>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".fragment_client">
+
+
+        <TextView
+            android:id="@+id/ClientsForm"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:text="@string/form_add_client_title" />
+
+
+        <EditText
+            android:id="@+id/Client_FirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/Client_FirstName"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Client_LastName"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/Client_LastName"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Email"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/Client_Email"/>
+
+        <Button
+            android:id="@+id/btnRegisterClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorUpdate"
+            android:text="Register Now"/>
+
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.HomeFragment"
+        android:label="Welcome back"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.ProfileFragment"
+        android:label="My profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vehicleMainFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.VehicleMainFragment"
+        android:label="Vehicles"
+        tools:layout="@layout/fragment_vehicle_main" >
+        <action
+            android:id="@+id/action_vehicleMainFragment_to_vehicleAddFragment"
+            app:destination="@id/vehicleAddFragment" />
+        <action
+            android:id="@+id/action_vehicleMainFragment_to_vehicleDetailsFragment"
+            app:destination="@id/vehicleDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vehicleAddFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.VehicleAddFragment"
+        android:label="Add vehicle"
+        tools:layout="@layout/fragment_vehicle_add" >
+        <action
+            android:id="@+id/action_vehicleAddFragment_to_vehicleMainFragment"
+            app:destination="@id/vehicleMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Client_Home"
+        android:name="cr.una.example.frontend_car_service_app.view.Fragment_Client_Home"
+        android:label="Clients"
+        tools:layout="@layout/fragment__client__home" >
+        <action
+            android:id="@+id/action_fragment_Client_Home_to_fragment_client"
+            app:destination="@id/fragment_client" />
+        <action
+            android:id="@+id/action_fragment_Client_Home_to_userDetailsFragment"
+            app:destination="@id/userDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_client"
+        android:name="cr.una.example.frontend_car_service_app.view.fragment_client"
+        android:label="Add Client"
+        tools:layout="@layout/fragment_client" >
+        <action
+            android:id="@+id/action_fragment_client_to_fragment_Client_Home"
+            app:destination="@id/fragment_Client_Home" />
+    </fragment>
+    <fragment
+        android:id="@+id/vehicleDetailsFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.VehicleDetailsFragment"
+        android:label="Vehicle Details"
+        tools:layout="@layout/fragment_vehicle_details" >
+        <action
+            android:id="@+id/action_vehicleDetailsFragment_to_vehicleUpdateFragment"
+            app:destination="@id/vehicleUpdateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vehicleUpdateFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.VehicleUpdateFragment"
+        android:label="Update vehicle"
+        tools:layout="@layout/fragment_vehicle_update" >
+        <action
+            android:id="@+id/action_vehicleUpdateFragment_to_vehicleMainFragment"
+            app:destination="@id/vehicleMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/userUpdateFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.UserUpdateFragment"
+        android:label="User Update"
+        tools:layout="@layout/fragment_user_update" >
+        <action
+            android:id="@+id/action_userUpdateFragment_to_fragment_Client_Home"
+            app:destination="@id/fragment_Client_Home" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailsFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.UserDetailsFragment"
+        android:label="User Details"
+        tools:layout="@layout/fragment_user_details" >
+        <action
+            android:id="@+id/action_userDetailsFragment_to_userUpdateFragment"
+            app:destination="@id/userUpdateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/repairMainFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.RepairMainFragment"
+        android:label="Repairs"
+        tools:layout="@layout/fragment_repair_main" >
+        <action
+            android:id="@+id/action_repairMainFragment_to_repairAddFragment"
+            app:destination="@id/repairAddFragment" />
+        <action
+            android:id="@+id/action_repairMainFragment_to_repairDetailFragment"
+            app:destination="@id/repairDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/repairAddFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.RepairAddFragment"
+        android:label="Add repair"
+        tools:layout="@layout/fragment_repair_add" >
+        <action
+            android:id="@+id/action_repairAddFragment_to_clientSelectFragment"
+            app:destination="@id/clientSelectFragment" />
+        <action
+            android:id="@+id/action_repairAddFragment_to_vehicleSelectFragment"
+            app:destination="@id/vehicleSelectFragment" />
+        <action
+            android:id="@+id/action_repairAddFragment_to_selectServiceFragment"
+            app:destination="@id/selectServiceFragment" />
+        <action
+            android:id="@+id/action_repairAddFragment_to_repairMainFragment"
+            app:destination="@id/repairMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clientSelectFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.ClientSelectFragment"
+        android:label="Clients"
+        tools:layout="@layout/fragment_client_select" >
+        <action
+            android:id="@+id/action_clientSelectFragment_to_repairAddFragment"
+            app:destination="@id/repairAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vehicleSelectFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.VehicleSelectFragment"
+        android:label="Vehicles"
+        tools:layout="@layout/fragment_vehicle_select" >
+        <action
+            android:id="@+id/action_vehicleSelectFragment_to_repairAddFragment"
+            app:destination="@id/repairAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectServiceFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.SelectServiceFragment"
+        android:label="Services"
+        tools:layout="@layout/fragment_select_service" >
+        <action
+            android:id="@+id/action_selectServiceFragment_to_repairAddFragment"
+            app:destination="@id/repairAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/repairDetailFragment"
+        android:name="cr.una.example.frontend_car_service_app.view.RepairDetailFragment"
+        android:label="Repair detail" >
+        <action
+            android:id="@+id/action_repairDetailFragment_to_repairMainFragment"
+            app:destination="@id/repairMainFragment" />
+    </fragment>
+</navigation>
